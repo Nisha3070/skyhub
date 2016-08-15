@@ -1,0 +1,14 @@
+# DATABASE FILES
+*.sql
+*.sqlite3
+*.sqlite
+
+# SYSTEM FILES
+*.exe
+*.msi
+*.app
+.DS_Store
+*.bat
+
+
+
