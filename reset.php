@@ -35,20 +35,16 @@
                     </div>
                     <div class="auth-form-body mt-3">
                         <label for="login_field">
-                            Email Address
+                           Enter a new password.
                         </label>
-                        <input autocapitalize="off" autocorrect="off" autofocus="autofocus" class="form-control input-block" id="checkin_email" name="checkin_email" type="email" required="">
-                        <label for="password">
-                          Password <a href="/forgot" class="label-link">Forgot password?</a>
+                         <input class="form-control form-control input-block" id="new_password" name="new_password" type="password" required="">
+                        <label for="login_field">
+                           Re-enter your new password
                         </label>
-                        <input class="form-control form-control input-block" id="checkin_password" name="checkin_password" type="password" required="">
-                        <input class="btn btn-primary btn-block" type="submit" value="Check In">
+                        <input class="form-control form-control input-block" id="re_new_password" name="re_new_password" type="password" required="">
+                        <input class="btn btn-primary btn-block" type="submit" value="Send password reset email">
                     </div>
                 </form>
-                <p class="create-account-callout mt-3">
-                    New to skyhub?
-                    <a href="/join?source=login" data-ga-click="Sign in, switch to sign up">Create an account</a>.
-                </p>
             </div>
         </div>
     </div>
